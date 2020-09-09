@@ -1,4 +1,4 @@
-FROM parrotsec/core:rolling
+FROM parrotsec/security:latest
 
 MAINTAINER BRAVO68WEB (bravo68web@dfcommunity.win)
 ENV DEBIAN_FRONTEND noninteractive
