@@ -7,5 +7,5 @@ WORKDIR /app
 # Install components
 RUN apt-get update; apt-get -y dist-upgrade;apt-get -y install parrot-pico;apt-get -y install parrot-mini parrot-tools-cloud; rm -rf /var/lib/apt/lists/*
 
-RUN cat ../etc/apt/sources.list
+RUN cat ../etc/apt/sources.list.d/parrot.list
 ENTRYPOINT bash $@
