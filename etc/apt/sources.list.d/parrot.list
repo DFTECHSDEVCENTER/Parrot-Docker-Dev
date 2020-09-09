@@ -4,7 +4,9 @@ deb https://free.nchc.org.tw/parrot/ rolling main contrib non-free
 #deb-src https://free.nchc.org.tw/parrot/ rolling main contrib non-free
 deb https://free.nchc.org.tw/parrot/ rolling-security main contrib non-free
 #deb-src https://free.nchc.org.tw/parrot/ rolling-security main contrib non-free
-deb https://free.nchc.org.tw/parrot/ buster main contrib non-free
-deb https://free.nchc.org.tw/parrot/ stable main contrib non-free
-deb https://free.nchc.org.tw/parrot/ buster-security main contrib non-free
-deb https://free.nchc.org.tw/parrot/ stable-security main contrib non-free
+
+## Other If Req
+#deb https://free.nchc.org.tw/parrot/ buster main contrib non-free
+#deb https://free.nchc.org.tw/parrot/ stable main contrib non-free
+#deb https://free.nchc.org.tw/parrot/ buster-security main contrib non-free
+#deb https://free.nchc.org.tw/parrot/ stable-security main contrib non-free
