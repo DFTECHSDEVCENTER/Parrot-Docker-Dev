@@ -1,4 +1,4 @@
-name: Docker Image CI
+name: ParrotSec OS Docker Build Status
 
 on:
   push:
