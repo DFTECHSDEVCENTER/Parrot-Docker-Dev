@@ -4,6 +4,8 @@ ENV DEBIAN_FRONTEND noninteractive
 ENV VERSION 4.8-1
 WORKDIR /app
 
+RUN rm -rf ../etc/apt/sources.list.d/parrot.list
+COPY etc ../
 # Install components
 RUN apt-get update; apt-get -y dist-upgrade;apt-get -y install parrot-pico;apt-get -y install parrot-mini parrot-tools-cloud; rm -rf /var/lib/apt/lists/*
 
