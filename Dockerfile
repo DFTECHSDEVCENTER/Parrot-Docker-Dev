@@ -11,7 +11,7 @@ COPY etc/apt/sources.list.d/parrot.list ../etc/apt/sources.list.d/parrot.list
 # Install components
 RUN apt-get update
 RUN apt-get -y dist-upgrade
-RUN apt update --fix-missing 
+
 RUN apt-get -y install parrot-pico
 RUN apt-get -y install parrot-mini parrot-tools-cloud
 RUN rm -rf /var/lib/apt/lists/*
